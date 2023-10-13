@@ -25,22 +25,23 @@
     height: 406px;
 }
 
-.imagens > .minhaFoto {
+.imagens>.minhaFoto {
     position: absolute;
     right: 0;
     bottom: 0;
     width: 18vw;
+    height: 18vw;
     border-radius: 50%;
 }
 
-.imagens > .circuloColorido {
+.imagens>.circuloColorido {
     position: absolute;
     right: 7vw;
     bottom: 2.2vw;
     width: 25vw;
 }
 
-@media (max-width: 1100px) {    
+@media (max-width: 1100px) {
     .banner {
         padding: 3.5rem 1.5rem;
     }
@@ -58,11 +59,11 @@
         height: 338px;
     }
 
-    .imagens > .minhaFoto {
+    .imagens>.minhaFoto {
         width: 25vw;
     }
 
-    .imagens > .circuloColorido {
+    .imagens>.circuloColorido {
         right: 10vw;
         width: 35vw;
     }
@@ -86,18 +87,19 @@
         height: 307px;
     }
 
-    .imagens > .minhaFoto, .imagens > .circuloColorido {
+    .imagens>.minhaFoto,
+    .imagens>.circuloColorido {
         left: 0;
         right: 0;
         margin: 0 auto;
     }
 
-    .imagens > .minhaFoto {
+    .imagens>.minhaFoto {
         width: 170px;
         transform: translate(5rem, 0px);
     }
 
-    .imagens > .circuloColorido {
+    .imagens>.circuloColorido {
         width: 240px;
         transform: translate(-1.5rem, 0px);
     }
